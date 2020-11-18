@@ -8,6 +8,17 @@ This repository is an official PyTorch implementation of "Deep Multimodal Fusion
 
 <p align="center"><img src="https://yikaiw.github.io/projects/NeurIPS20-CEN/introduction.png" width="820" /></p>
 
+
+If you find our work useful for your research, please consider citing the following paper.
+```
+@inproceedings{wang2020cen,
+  title={Deep Multimodal Fusion by Channel Exchanging},
+  author={Wang, Yikai and Huang, Wenbing and Sun, Fuchun and Xu, Tingyang and Rong, Yu and Huang, Junzhou},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2020}
+}
+```
+
 ## Dependencies
 
 ```
@@ -67,15 +78,4 @@ For training with other modalities, the index for each img-type is described as 
 0: 'rgb', 1: 'normal', 2: 'reshading', 3: 'depth_euclidean', 
 4: 'depth_zbuffer', 5: 'principal_curvature', 6: 'edge_occlusion', 
 7: 'edge_texture', 8: 'segment_unsup2d', 9: 'segment_unsup25d'
-```
-
-## Citation
-If you find our work useful for your research, please cite the following paper.
-```
-@inproceedings{wang2020cen,
-  title={Deep Multimodal Fusion by Channel Exchanging},
-  author={Wang, Yikai and Huang, Wenbing and Sun, Fuchun and Xu, Tingyang and Rong, Yu and Huang, Junzhou},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2020}
-}
 ```
